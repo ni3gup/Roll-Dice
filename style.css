@@ -1,0 +1,145 @@
+.dice {
+    background: #ddd;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#dot1 {
+    background: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#dot2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px;
+    background: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#dot3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    background: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#dot4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    background: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#dot5 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    background: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#dot6 {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    margin: 10px;
+    background: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#dot7 {
+    position: absolute;
+    top: 23px;
+    right: 0;
+    margin: 10px;
+    background: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.hide {
+    display: none;
+}
+
+.generateDice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+    left: 1px;
+    right: 0;
+    margin: auto;
+    height: 25px;
+    width: 77px;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
